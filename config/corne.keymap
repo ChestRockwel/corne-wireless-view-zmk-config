@@ -53,10 +53,10 @@
 
             label = "Raise";
             bindings = <
-&trans  &kp EXCL  &kp AT      &kp LEFT_BRACE        &kp RIGHT_BRACE    &kp PRCNT    &kp CARET      &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS  &kp LS(LA(LC(GRAVE)))
-&trans  &kp HASH  &kp DOLLAR  &kp LEFT_PARENTHESIS  &kp RPAR           &kp GRAVE    &kp MINUS      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp BSLH   &kp PLUS
-&trans  &trans    &trans      &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &trans       &kp AMPERSAND  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PIPE   &trans
-                              &to 0                 &trans             &kp SPACE    &kp RET        &kp KP_NUMBER_0  &kp DOT
+&trans  &kp EXCL  &kp AT      &kp LEFT_BRACE        &kp RIGHT_BRACE    &kp PRCNT    &kp CARET      &kp N7        &kp N8        &kp N9        &kp MINUS  &kp LS(LA(LC(GRAVE)))
+&trans  &kp HASH  &kp DOLLAR  &kp LEFT_PARENTHESIS  &kp RPAR           &kp GRAVE    &kp MINUS      &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp BSLH   &kp PLUS
+&trans  &trans    &trans      &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &trans       &kp AMPERSAND  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PIPE   &trans
+                              &to 0                 &trans             &kp SPACE    &kp RET        &kp N0        &kp DOT
             >;
         };
     };
